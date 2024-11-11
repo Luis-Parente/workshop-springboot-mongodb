@@ -45,7 +45,7 @@ public class Instantiation implements CommandLineRunner {
 
 		CommentDTO comment1 = new CommentDTO("Boa viagem mano!", fmt.parse("21/02/2018"), new AuthorDTO(alex));
 		CommentDTO comment2 = new CommentDTO("Aproveite", fmt.parse("21/02/2018"), new AuthorDTO(bob));
-		CommentDTO comment3 = new CommentDTO("Tenha um [otimo dia!", fmt.parse("23/02/2018"), new AuthorDTO(alex));
+		CommentDTO comment3 = new CommentDTO("Tenha um otimo dia!", fmt.parse("23/02/2018"), new AuthorDTO(alex));
 		
 		post1.getComments().addAll(Arrays.asList(comment1, comment2));
 		post2.getComments().addAll(Arrays.asList(comment3));
